@@ -1,0 +1,22 @@
+# Create a vector of 20 elements
+vector = [1, 2, 3, ..., 20]
+
+# Count how many elements are zero, negative, and positive
+num_zeros = vector.count(0)
+num_negatives = len([i for i in vector if i < 0])
+num_positives = len([i for i in vector if i > 0])
+
+# Calculate the sum of the negative and positive elements
+sum_negatives = sum([i for i in vector if i < 0])
+sum_positives = sum([i for i in vector if i > 0])
+
+# Create another vector with the elements in reverse order
+reversed_vector = vector[::-1]
+
+# Print the counts, sums, and the reversed vector
+print("The number of zeros is:", num_zeros)
+print("The number of negative elements is:", num_negatives)
+print("The number of positive elements is:", num_positives)
+print("The sum of the negative elements is:", sum_negatives)
+print("The sum of the positive elements is:", sum_positives)
+print("The reversed vector is:", reversed_vector)
