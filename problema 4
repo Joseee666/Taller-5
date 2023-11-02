@@ -1,0 +1,9 @@
+# Create a vector of 30 elements
+vector = [1, 2, 3, ..., 30]
+
+# Square each element in the vector and store the result in another vector
+squared_vector = [i**2 for i in vector]
+
+# Print the original vector and the resulting vector
+print("The original vector is:", vector)
+print("The resulting vector is:", squared_vector)
