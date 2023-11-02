@@ -1,0 +1,9 @@
+# Create a vector of 35 elements
+vector = [1, 2, 3, ..., 35]
+
+# Find the maximum value in the vector and its position
+max_value = max(vector)
+max_index = vector.index(max_value)
+
+# Print the position and value of the maximum element
+print("The maximum value is", max_value, "and its position is", max_index)
