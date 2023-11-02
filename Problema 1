@@ -1,0 +1,16 @@
+vector = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+
+# Calculate the average of the values in the vector
+average = sum(vector) / len(vector)
+
+# Determine how many values in the vector are greater than the average
+greater_than_average = [i for i in vector if i > average]
+num_greater_than_average = len(greater_than_average)
+
+# Create a list of the values in the vector that are greater than the average
+list_greater_than_average = ', '.join(str(i) for i in greater_than_average)
+
+# Print the average, the number of values greater than the average, and the list of values greater than the average
+print("The average is:", average)
+print("The number of values greater than the average is:", num_greater_than_average)
+print("The list of values greater than the average is:", list_greater_than_average)
