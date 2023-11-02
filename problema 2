@@ -1,0 +1,9 @@
+# Create two vectors A and B of 36 elements each
+A = [1, 2, 3, ..., 36]
+B = [1, 2, 3, ..., 36]
+
+# Sum the elements of vector A with the corresponding elements of vector B and store the result in a vector C
+C = [A[i] + B[i] for i in range(len(A))]
+
+# Print the resulting vector C
+print("The resulting vector is:", C)
